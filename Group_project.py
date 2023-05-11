@@ -1,10 +1,2 @@
-a = int(input("a - "))
-b = int(input("b - "))
-
-
-def addition(x, y):
-    return x + y
-
-
-func = addition(a, b)
-print(func)
+# I have an idea how to create the shortest code of this problem
+print((lambda a, b: a + b)(int(input('a : ')), int(input('b : '))))
